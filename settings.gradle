@@ -1,0 +1,2 @@
+rootProject.name='MediMemo_Main_Screen'
+include ':app'

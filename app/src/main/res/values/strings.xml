@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">MediMemo</string>
+    <string name="calendar">SCHEDULE</string>
+    <string name="title_activity_bluetooth_settings">BluetoothSettings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="connect">Connect to your box</string>
+    <string name="language">Language:</string>
+    <string name="font_size">Font Size:</string>
+    <string name="contact_us">Emergancy contact:</string>
+    <string-array name="language_list">
+        <item>English</item>
+        <item>Polish</item>
+        <item>Spanish</item>
+    </string-array>
+    <string-array name="font_size">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Very Large</item>
+    </string-array>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Calendar">CALENDAR</string>
+    <string name="todo">TODO</string>
+    <string name="doctor">doctor</string>
+    <string name="pill">pill</string>
+    <string name="upcoming_pill">Upcoming Pill</string>
+    <string name="appointment">Doctor\'s appointment</string>
+    <string name="reminder">Reminder</string>
+    <string-array name="names">
+        <item>Medication Alert</item>
+        <item>Doctor Appointment</item>
+        <item>Reminder</item>
+    </string-array>
+    <string-array name="time">
+        <item>00:00</item>
+        <item>00:30</item>
+        <item>1:30</item>
+        <item>2:00</item>
+        <item>2:30</item>
+        <item>3:00</item>
+        <item>3:30</item>
+        <item>4:00</item>
+        <item>4:30</item>
+        <item>5:00</item>
+        <item>5:30</item>
+        <item>6:00</item>
+        <item>6:30</item>
+        <item>7:00</item>
+        <item>7:30</item>
+        <item>8:00</item>
+        <item>8:30</item>
+        <item>9:00</item>
+        <item>9:30</item>
+        <item>10:00</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:30</item>
+        <item>12:00</item>
+        <item>12:30</item>
+        <item>13:00</item>
+        <item>13:30</item>
+        <item>14:00</item>
+        <item>14:30</item>
+        <item>15:00</item>
+        <item>15:30</item>
+        <item>16:00</item>
+        <item>16:30</item>
+        <item>17:00</item>
+        <item>17:30</item>
+        <item>18:00</item>
+        <item>18:30</item>
+        <item>19:00</item>
+        <item>19:30</item>
+        <item>20:00</item>
+        <item>20:30</item>
+        <item>21:00</item>
+        <item>21:30</item>
+        <item>22:00</item>
+        <item>22:30</item>
+        <item>23:00</item>
+        <item>23:30</item>
+        <item>24:00</item>
+    </string-array>
+</resources>

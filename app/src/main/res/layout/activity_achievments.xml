@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".achievments" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                app:srcCompat="@drawable/medal_dlugi" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="8dp"
+                    android:layout_height="131dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/user_font" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="LEVEL: 5 \n\n\nScore: 1500/2000 "
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="8dp"
+                    android:layout_height="131dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/heart" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="59dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="LOVE IS IMPORTANT\n
+Love is important, and the one person you can't forget to love, is you yourself. You've shown it by starting your treatment!
+"
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="8dp"
+                    android:layout_height="131dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/pill" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="59dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="A PILL A DAY KEEPS THE DOCTOR AWAY\n
+There's so much you can do when you only need a few check up and medicate yourself properly. Congrats on taking your meds for a week on time!
+
+"
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="8dp"
+                    android:layout_height="131dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/alarm" />
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="59dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="ALWAYS ON TIME\n
+You've done your exercies, and done them on time and IN time! Good job.
+
+"
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="8dp"
+                    android:layout_height="131dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/sun" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="59dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="SUNNY DAY, SICKNESS-AWAY!\n
+Wow, you sure know how to keep your allergy at bay. When you take your meds so well, you can forget about pollen!
+
+"
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="8dp"
+                    android:layout_height="131dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/moon" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="59dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="BEAUTY SLEEP\n
+What is beautiful, if not the effort you make to keep yourself healthy and well-rested? Keep making time to take a break every day and you won't need if the push comes to shove.
+
+
+"
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
